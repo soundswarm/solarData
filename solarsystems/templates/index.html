@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWFFGGbGCb9O3UuvKgh61VwrgW6MDFzHw"
+    ></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    
+
+  </head>
+  <body>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <h1>My Demo</h1>
+    <!-- your code goes here -->
+
+    <canvas id='ct-chart'>
+    </canvas>
+
+    <h4>List contains only systems visible on map</h4>
+    <div id='systemsList' class='list-group col-lg-3'>
+      
+    </div>
+
+    <h4>Hover over markers. Zoom to see list change</h4>
+    <div class='mapContainer container col-lg-6'>
+      <div id='googleMap'>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+/* Any CSS you want to add can go here */
+.mapContainer {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  
+}
+
+#googleMap {
+  position: absolute;
+  width: 90%;
+  height:100%;
+}
+
+#ct-chart {
+  max-width: 1000px;
+}
